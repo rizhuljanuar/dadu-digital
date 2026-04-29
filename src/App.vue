@@ -5,9 +5,6 @@ import Dice from './components/Dice.vue';
 </script>
 
 <template>
-  <header>
-    <h1>Dadu Digital</h1>
-  </header>
 
   <main>
     <Dice />
@@ -15,11 +12,6 @@ import Dice from './components/Dice.vue';
 </template>
 
 <style scoped>
-header {
-  text-align: center;
-  padding: 20px;
-}
-
 main {
   display: flex;
   justify-content: center;
